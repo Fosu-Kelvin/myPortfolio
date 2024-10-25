@@ -1,0 +1,79 @@
+$bgcolor: rgba(248, 249, 250, 0.65);
+$designColor:#f581b0;
+
+.skills_container{
+    min-height: 100vh;
+   
+    margin: 8rem 2rem 0 2rem;
+   /*  max-width: 100%; */
+   max-width: 100%;
+   
+   overflow-x: hidden;
+  
+
+}
+
+.skills_container_header{
+    color: $designColor;
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: "Cabin Condensed", sans-serif;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typingEffectAnimation 2s steps(30, end);
+    font-style: normal;
+}
+
+
+.container4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   column-gap: 2rem;
+    
+}
+
+.skill-bar{
+    background-color: rgba($color: #000000, $alpha: 0.65);
+   margin-bottom: 2.5rem;
+    height: 20px;
+    border-radius: 5px;
+    /* position: relative; */
+}
+
+.skill-progress{
+    height: 100%;
+    background-color: $bgcolor;
+}
+
+
+@keyframes typingEffectAnimation {
+    from{
+        width: 0;
+    }
+
+    to{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .container4{
+       
+       grid-template-columns: 1fr;
+        
+    }
+    .container4 h3{
+       
+      font-weight:600px ;
+      font-size: 2rem;
+        
+    }
+
+
+.skills_container_header{
+    
+    font-size: 3rem;
+
+  
+}
+}

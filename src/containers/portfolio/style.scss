@@ -1,0 +1,156 @@
+$designColor:#f581b0;
+
+.portfolio-container{
+    margin: 8rem 0 0 2rem;
+    max-width: 100%;
+    min-height: 80vh;
+}
+
+.portfolio-container-h1{
+    color: $designColor;
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: "Cabin Condensed", sans-serif;
+     overflow: hidden;
+    white-space: nowrap; 
+    animation: typingEffectAnimation 2s steps(30, end);
+    font-style: normal;
+}
+
+@keyframes typingEffectAnimation {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+.project-container{
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+
+
+
+.photo-con{
+    position: relative;
+    overflow: hidden; 
+    cursor: pointer;
+
+
+img{
+    width: 100%;
+    max-width: 22rem;
+    height: 20rem;
+    transition: transform 0.3s ease;
+    border-radius: 15px;
+   
+}
+
+
+
+h2 {
+    position: absolute;
+    bottom: 20px; 
+    left: 20px; 
+    color: #fff; 
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+    z-index: 1;
+  }
+
+  .icon{
+    position: absolute;
+    bottom: 20px;
+    right:20px;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    cursor: pointer;
+    z-index: 1;
+  }
+
+  &:hover{
+     img{
+         transform: scale(1.1); 
+        
+        transition: 0.3s;
+        border-radius: 5px;
+    } 
+
+    h2, .icon{
+        opacity: 1;
+        
+    }
+
+
+    &::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(255,255,255,0.2);
+        backdrop-filter: blur(5px);
+        z-index: 1;
+       
+    } 
+  }
+
+}
+
+
+
+
+/* .photo-con1 img{
+    width: 19rem;
+    height: 12rem;
+    border-radius: 5px;
+    position: relative;
+    
+ 
+}
+
+.photo-con1 ::before{
+    content: "";
+    position: absolute;
+   
+}
+
+
+
+
+
+.photo-con2 img{
+    width: 19rem;
+    height: 12rem;
+}
+
+
+
+.photo-con3 img{
+    width: 19rem;
+    height: 12rem;
+}
+
+
+.photo-con4 img{
+    width: 19rem;
+    height: 12rem;
+}
+ */
+
+
+
+    
+/* 
+@media only screen and (max-width:768px){
+
+}  */
+
