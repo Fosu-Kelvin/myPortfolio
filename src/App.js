@@ -15,8 +15,7 @@ const App = () => {
     <div className="div-app">
       <NavBar />
 
-      {/* navbar */}
-      {/* main page content */}
+      
       <Routes>
         <Route index path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
