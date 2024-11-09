@@ -105,52 +105,28 @@ h2 {
 
 }
 
-
-
-
-/* .photo-con1 img{
-    width: 19rem;
-    height: 12rem;
-    border-radius: 5px;
-    position: relative;
-    
- 
-}
-
-.photo-con1 ::before{
-    content: "";
-    position: absolute;
-   
-}
-
-
-
-
-
-.photo-con2 img{
-    width: 19rem;
-    height: 12rem;
-}
-
-
-
-.photo-con3 img{
-    width: 19rem;
-    height: 12rem;
-}
-
-
-.photo-con4 img{
-    width: 19rem;
-    height: 12rem;
-}
- */
-
-
-
-    
-/* 
 @media only screen and (max-width:768px){
 
-}  */
+    .portfolio-container-h1{
+        font-size: 3rem;
+    }
+
+    project-container{
+        margin-right: 1rem;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+    
+    }
+
+}  
+
+
+
+
+
+
+    
+
 

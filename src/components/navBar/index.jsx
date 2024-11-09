@@ -45,7 +45,7 @@ const NavBar = () => {
     <nav className="navbar">
       <div className="navbar__container">
         <Link to={"/"} className="navbar__container__logo">
-          Kelvin Fosu <FaCode size={30} />
+          Kelvin Fosu <FaCode className="code" size={30} />
         </Link>
 
         <ul className={`nabar__container__menu ${toggleIcon ? "active" : ""}`}>

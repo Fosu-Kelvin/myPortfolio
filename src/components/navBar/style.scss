@@ -36,7 +36,24 @@ $bgcolor: rgba(248, 249, 250, 1);
   text-decoration: none;
   margin-top: -0.5rem;
   text-wrap: nowrap;
+ 
   
+}
+
+.code{
+  animation: bounce 0.5s infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-30px); /* Move up */
+  }
+  100% {
+    transform: translateY(0); /* Move back to original position */
+  }
 }
 
 .nabar__container__menu{

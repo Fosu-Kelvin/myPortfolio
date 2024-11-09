@@ -16,7 +16,7 @@ const Footer = () => {
     <footer className="bg-body-tertiary ">
       <div className="footer-container">
         <h5>
-          Kelvin Fosu <FaCode />
+          Kelvin Fosu <FaCode className="code" />
         </h5>
         <ul>
           <li>
