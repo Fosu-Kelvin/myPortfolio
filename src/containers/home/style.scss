@@ -86,18 +86,20 @@ img {
 
   }
   .container1 {
-    margin-left: 25px;
+    margin: 0 auto;
     width: 100%;
+    
   }
 
   .container1 h1 {
     color: $designColor;
-    // font-size: 30px;
+    
   }
   .container1 p {
     display: flex;
     flex: 1;
     font-size: 0.2rem;
+   
   }
 
   .container1 button {
@@ -142,7 +144,6 @@ img {
 
   img {
     width: 100%;
-
     height: auto;
   }
 }
@@ -151,7 +152,7 @@ img {
   .home-container{
     display: flex;
     flex-wrap: wrap;
-    overflow: hidden;
+    overflow: scroll;
   }
 
 }
