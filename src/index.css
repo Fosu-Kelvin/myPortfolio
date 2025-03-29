@@ -1,0 +1,33 @@
+
+:root{
+    --designColor:#f581b0;
+    --background-color:#fff;
+  
+    --nav-text-color:rgba(0,0,0, 0.65);
+    --nav-hover-text-color: rgba(0,0,0, 0.8);
+
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+html{
+  /*   font-size: 82.5%; */
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    background: var(--background-color);
+   
+   
+    
+}
+
+#root{
+    height: 100%;
+}

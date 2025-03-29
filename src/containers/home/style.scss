@@ -1,0 +1,167 @@
+$designColor: #f581b0;
+$bgcolor: #fff;
+$textcolor: #161616;
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&display=swap");
+
+.home-container {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  padding-right: 2rem;
+  min-height: 80vh;
+  overflow: hidden;
+ 
+}
+
+.container1 {
+  margin-left: 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /*   flex: 1; */
+}
+
+.container1 h1 {
+  color: $designColor;
+  font-size: 5rem;
+  font-weight: 900;
+  font-family: "Cabin Condensed", sans-serif;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typingEffectAnimation 2s steps(30, end);
+  font-style: normal;
+}
+
+.container1 span {
+  color: $textcolor;
+  display: block;
+}
+
+.home-buttons {
+  display: flex;
+  column-gap: 20px;
+}
+
+.container1 button {
+  background-color: $designColor;
+  border: none;
+  color: $bgcolor;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.container1 button:hover {
+  background-color: hsl(336, 85%, 65%);
+}
+
+.container1 button a {
+  text-decoration: none;
+  color: $bgcolor;
+}
+
+.container1 p {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+}
+
+img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .home-container {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    width: 100%;
+    margin-left: 1rem;
+
+  }
+  .container1 {
+    margin: 0 auto;
+    width: 100%;
+    
+  }
+
+  .container1 h1 {
+    color: $designColor;
+    
+  }
+  .container1 p {
+    display: flex;
+    flex: 1;
+    font-size: 0.2rem;
+   
+  }
+
+  .container1 button {
+    background-color: $designColor;
+    border: none;
+    color: $bgcolor;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 3px;
+    width: 150px;
+  }
+  .container2 {
+    margin-left: 25px;
+    width: 100%;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+@media only screen and (max-width: 992px) {
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 3rem;
+  }
+
+  .container1 h1 {
+    color: $designColor;
+    font-size: 60px;
+    flex: 1;
+  }
+  .container1 p {
+    display: flex;
+
+    font-size: 17px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1200px){
+  .home-container{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+  }
+
+}
+
+@keyframes typingEffectAnimation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
