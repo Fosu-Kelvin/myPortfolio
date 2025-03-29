@@ -13,7 +13,7 @@ const Portfolio = () => {
   const links = [
     "https://github.com/Fosu-Kelvin/Weather-app1",
     "https://github.com/Fosu-Kelvin/To-do-list-app",
-    "https://github.com/Fosu-Kelvin/calculator-app",
+    "https://fosu-kelvin.github.io/calculator/",
     "https://github.com/Fosu-Kelvin/stop-watch-app",
     "https://Fosu-Kelvin.github.io/financeEdge"
   ];
