@@ -12,7 +12,7 @@ const Portfolio = () => {
   const projectNames  = ["Weather App","To-do list App","Calculator","Stop Watch","trading site","Netflix Clone"]
 
   const links = [
-    "https://github.com/Fosu-Kelvin/Weather-app1",
+    "https://fosu-kelvin.github.io/Weather-app1/",
     "https://github.com/Fosu-Kelvin/To-do-list-app",
    "https://fosu-kelvin.github.io/calculator/",
     "https://github.com/Fosu-Kelvin/stop-watch-app",
