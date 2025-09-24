@@ -26,7 +26,7 @@ const Portfolio = () => {
             <div className="photo-con" key={index}>
               <img src={photo} alt={`photo${index+1}`} />
               <h2>{projectNames[index]}</h2>
-              <a href={links[index]}><FaShare className='icon' /></a>
+              <a href={links[index]}><FaShare className='icon'/></a>
             </div>
           ))
         }
