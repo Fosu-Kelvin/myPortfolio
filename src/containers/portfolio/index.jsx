@@ -4,18 +4,20 @@ import photo2 from './images/photo2.jpeg'
 import photo3 from './images/photo3.jpg'
 import photo4 from './images/photo4.jpg'
 import photo5 from './images/photo5.jpg'
+import photo6 from './images/photo1.avif'
 import { FaShare } from 'react-icons/fa'
 
 const Portfolio = () => {
-  const pics = [photo1,photo2,photo3,photo4,photo5]
-  const projectNames  = ["Weather App","To-do list App","Calculator","Stop Watch","trading site"]
+  const pics = [photo1,photo2,photo3,photo4,photo5,photo6]
+  const projectNames  = ["Weather App","To-do list App","Calculator","Stop Watch","trading site","Netflix Clone"]
 
   const links = [
     "https://github.com/Fosu-Kelvin/Weather-app1",
     "https://github.com/Fosu-Kelvin/To-do-list-app",
    "https://fosu-kelvin.github.io/calculator/",
     "https://github.com/Fosu-Kelvin/stop-watch-app",
-    "https://Fosu-Kelvin.github.io/financeEdge"
+    "https://Fosu-Kelvin.github.io/financeEdge",
+    "https://Fosu-Kelvin.github.io/netflixClone"
   ];
   return (
     <section className="portfolio-container">
